@@ -1,1 +1,10 @@
-<p>searchbar works!</p>
+<section>
+  <div class="search">
+  <form (ngSubmit)="searchDevelopers()" #formTaask="ngForm">
+    <input name="filter" type="text" [(ngModel)]="filter">
+    <button id="btn-search"type="submit">Pesquisar</button>
+  </form>
+  </div>
+
+  <button id="btn-create" (click)="routeToCreate()">+ Criar</button>
+</section>

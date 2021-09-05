@@ -1,0 +1,64 @@
+section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+label {
+  color: rgb(158, 154, 154);
+  font-size: 30px;
+}
+
+input {
+  margin-top: 20px;
+  margin-bottom: 40px;
+  padding: 10px;
+  width: 500px;
+  border-radius: 5px;
+  border: none;
+  background-color: #232129;
+  font-size: 20px;
+}
+
+textarea {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 500px;
+  background-color: #232129;
+  border: none;
+  padding: 10px;
+  font-size: 20px;
+}
+
+.buttons {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 10px;
+}
+
+button {
+  padding: 10px;
+  color: rgba(245, 245, 245, 0.719);
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+button:hover {
+  filter:  contrast(1.2);
+  transition: 200ms;
+}
+
+
+#btn-save {
+  background-color: #9D34B7;
+}
+
+#btn-back {
+  background-color: #232129;
+}
+
+

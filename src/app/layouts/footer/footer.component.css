@@ -1,0 +1,27 @@
+footer {
+  position: fixed;
+  height: 30px;
+  background-color: #28262E;
+  bottom: 0px;
+  left: 0px;
+  padding: 5px;
+  border-top-right-radius: 5px;
+}
+
+p {
+  text-align: center;
+  color: grey;
+}
+
+a {
+  text-decoration: none;
+  color: #9D34B7;
+  font-weight: bold;
+  filter: brightness(1.9);
+  letter-spacing: 2px;
+}
+
+a:hover {
+  filter: contrast(5);
+  transition: 200ms;
+}

@@ -1,0 +1,15 @@
+* {
+  background-color: #28262E;
+}
+
+header {
+  padding: 20px;
+  text-align: center;
+  border-bottom: 5px solid rgba(0, 0, 0, 0.219);
+}
+
+h1 {
+  font-size: 65px;
+  letter-spacing: 4px;
+  color: #9d34b7;
+}

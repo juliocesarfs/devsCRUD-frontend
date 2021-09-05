@@ -1,0 +1,51 @@
+section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 30px;
+}
+
+.image {
+  border-bottom: 2px solid #9D34B7;
+  margin-bottom: 20px;
+}
+
+.image img {
+  max-width: 230px;
+  min-width: 230px;
+  border-radius: 50%;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.name {
+  letter-spacing: 6px;
+}
+
+.about h1 {
+  color: grey;
+  padding-bottom: 5px;
+}
+
+.about {
+  width: 500px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+button {
+  width: 400px;
+  height: 30px;
+  background-color: #9D34B7;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+button:hover {
+  filter: opacity(0.8);
+  transition: 200ms;
+}
+

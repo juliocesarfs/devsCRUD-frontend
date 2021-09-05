@@ -1,1 +1,37 @@
-<p>form-developer works!</p>
+<section>
+  <form (ngSubmit)="saveDeveloper()" #formTaask="ngForm">
+    <input *ngIf="create" type="hidden" name="id" [(ngModel)]='developer.id'>
+    <div class="imageURL">
+      <label for="imageUrl">Link da sua foto do Github</label>
+      <div>
+        <input
+          type="url"
+          name="imageUrl"
+          placeholder="https://avatars.githubusercontent.com/u/.../..."
+          [(ngModel)]='developer.imageUrl'
+        >
+      </div>
+    </div>
+
+    <div class="name">
+      <label for="name">Seu belissímo nome</label>
+      <div>
+        <input type="text" name="name" id="" [(ngModel)]='developer.name'>
+      </div>
+    </div>
+
+    <div class="about">
+      <label for="about">Descreva um pouco sobre você!</label>
+      <div>
+        <textarea name="about" id="" cols="30" rows="10" [(ngModel)]='developer.about'>
+        </textarea>
+      </div>
+    </div>
+
+    <div class="buttons">
+      <button id="btn-back" type="button" [routerLink]="['']">Voltar</button>
+      <button id="btn-save" type="submit">Salvar</button>
+    </div>
+
+  </form>
+</section>

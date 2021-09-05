@@ -1,1 +1,12 @@
-<p>details-developer works!</p>
+<section>
+  <div class="image">
+    <img src="{{ developer.imageUrl }}" alt="">
+  </div>
+  <h2 class="name">{{ developer.name }}</h2>
+
+  <div class="about">
+    <h1>Sobre mim</h1>
+    <p>{{ developer.about }}</p>
+  </div>
+  <button id="btn-back" [routerLink]="['']">Voltar</button>
+</section>

@@ -1,1 +1,24 @@
-<p>list-developers works!</p>
+<div>
+    <app-searchbar></app-searchbar>
+</div>
+<section class="items">
+  <div class="item" *ngFor="let developer of developers">
+    <div class="container" (click)='routeToDetails(developer.id)'>
+      <div class="img">
+        <img src="{{ developer.imageUrl }}"
+          alt="imagem do developer"
+        >
+      </div>
+
+      <div class="name">{{ developer.name }}</div>
+    </div>
+    <div class="buttons">
+        <button id="edit" (click)='routeToEdit(developer.id)'>
+          <span class="material-icons">edit</span>
+        </button>
+        <button id="delete" (click)='removeDeveloper(developer.id)'>
+          <span class="material-icons">delete_forever</span>
+        </button>
+      </div>
+  </div>
+</section>
