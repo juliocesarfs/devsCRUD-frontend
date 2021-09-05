@@ -6,7 +6,9 @@
 <div align="center">
 <img width="500px" src="https://media.giphy.com/media/SOPtvwiC8NzTXgXync/giphy.gif?cid=790b7611457fd8775ee847ca0711498c8643ece2cf0fd85a&rid=giphy.gif&ct=g">
 </div>
+
 ---
+
 Você pode acessar esse projeto totalmente funcional pelo link:
 
 > https://crud-dev.vercel.app
