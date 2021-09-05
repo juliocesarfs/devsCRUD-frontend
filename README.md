@@ -1,27 +1,34 @@
-# DevsCRUDFrontend
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.1.4.
 
-## Development server
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+#  <img  width="20" src="./readme-assets/jc-color.png">  CRUD.dev
+> Um simples e eficaz controle de Developers 👨‍💻
+---
+Você pode acessar esse projeto totalmente funcional pelo link:
+> https://crud-dev.vercel.app
+---
+## 💬 Propósito
+O objetivo do projeto é construir uma aplicação Frontend que consome dados de uma API de Developers. [devsCRUD-api](https://github.com/juliocesarfs/devscrud-api)
 
-## Code scaffolding
+- Listar Developers
+- Visualizar Developer
+- Cadastrar Developers
+- Alterar Developer
+- Remover Developer
+---
+## 🧠 O projeto foi organizado em:
+> **pages**: páginas da aplicação
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+> **layouts**: componentes básicos das páginas
 
-## Build
+> **shared**: componentes que são compartilhados para toda a aplicação
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+> **developer.routing.ts**: rota de Developers
 
-## Running unit tests
+> **developer.service.ts**: camada de serviço que se comunica com a API
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+---
+# 📕 License
+This project is under [MIT license](https://github.com/juliocesarfs/devsCRUD-frontend/blob/main/LICENSE)
 
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+<img  width="20" src="./readme-assets/jc-color.png"> Made by [Júlio César](https://github.com/juliocesarfs) <img  width="20" src="./readme-assets/jc-color.png"> 
