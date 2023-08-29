@@ -37,4 +37,4 @@ O objetivo do projeto é construir uma aplicação Frontend que consome dados de
 # 📕 License
 This project is under [MIT license](https://github.com/juliocesarfs/devsCRUD-frontend/blob/main/LICENSE)
 
-<img  width="20" src="./readme-assets/jc-color.png"> Made by [Júlio César](https://github.com/juliocesarfs) <img  width="20" src="./readme-assets/jc-color.png"> 
+<img  width="20" src="./readme-assets/jc-color.png"> Made by [Júlio César](https://github.com/juliocesarfs) & Dastya<img  width="20" src="./readme-assets/jc-color.png"> 
